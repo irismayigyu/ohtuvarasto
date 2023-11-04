@@ -69,5 +69,5 @@ class TestVarasto(unittest.TestCase):
     
     def test_alkusaldo_isompi_kuin_tilavuus(self):
         self.varasto = Varasto(tilavuus=10, alku_saldo=11)
-        self.assertEqual(self.varasto.saldo, 10)
+        self.assertEqual(self.varasto.saldo, 69)
     
