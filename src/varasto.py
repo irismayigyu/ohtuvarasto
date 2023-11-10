@@ -37,7 +37,7 @@ class Varasto:
 
             return kaikki_mita_voidaan
 
-        self.saldo = self.saldo - maarayooo
+        self.saldo = self.saldo - maara
 
         return maara
 
